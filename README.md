@@ -1,2 +1,2 @@
-# B3T
-Backend Tech-stack Trend Tracker
+# 3T
+Tech-stack Trend Tracker
