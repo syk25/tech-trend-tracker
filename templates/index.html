@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>백엔드 스택 트렌드 트래커</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+    </head>
+
+    <body>
+        <h1>1 ~ 3년차 백엔드 스택 트렌드 트래커</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <button type="submit">분석하기</button>
+        </form>
+    </body>
+
+</html>

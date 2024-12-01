@@ -1,0 +1,29 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# Uploads
+uploads/
+
+# Log files
+*.log
+
+# OS-generated files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Flask specific
+instance/
+*.sqlite
+
+# Sensitive files
+.env
+
+*.csv
